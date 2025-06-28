@@ -1,0 +1,16 @@
+<template>
+ <div>
+  <h2>Item List</h2>
+  <template class="listContainer" for:each={items} for:item="item">
+   <li key={item}>
+    <div class="slds-card">
+     <div class="slds-card__header">{item}</div>
+     <div class="slds-card__body">Description of {item}</div>
+    </div>
+   </li>
+  </template>
+  <template if:true={error}>
+   <p class="slds-text-color_error">{error}</p>
+  </template>
+ </div>
+</template>

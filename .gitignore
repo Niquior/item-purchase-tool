@@ -76,3 +76,4 @@ coverage/
 
 # Salesforce cache
 .sf/
+.jetforcer/

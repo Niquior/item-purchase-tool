@@ -1,0 +1,21 @@
+<template>
+    <div class="slds-card">
+        <ul class="upperBar slds-card__body slds-list_horizontal-large justify-content-space-evenly">
+            <li class="slds-item">
+                <template if:true={isManager}><button><span>create item</span></button></template>
+            </li>
+            <li class="slds-item">
+                <span><b>Account Name:</b><br>{accName}</span>
+            </li>
+            <li class="slds-item">
+                <span><b>Account Number:</b><br>{accNumber}</span>
+            </li>
+            <li class="slds-item">
+                <span><b>Industry:</b><br>{accIndustry}</span>
+            </li>
+            <li class="slds-item">
+                <button><span>Cart</span></button>
+            </li>
+        </ul>
+    </div>
+</template>

@@ -1,0 +1,10 @@
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInput {
+    width: 100%;
+}

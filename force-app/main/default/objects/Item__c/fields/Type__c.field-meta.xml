@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Action Figure</fullName>
+                <default>false</default>
+                <label>Action Figure</label>
+            </value>
+            <value>
+                <fullName>Backpack</fullName>
+                <default>false</default>
+                <label>Backpack</label>
+            </value>
+            <value>
+                <fullName>Board Game</fullName>
+                <default>false</default>
+                <label>Board Game</label>
+            </value>
+            <value>
+                <fullName>Face Cream</fullName>
+                <default>false</default>
+                <label>Face Cream</label>
+            </value>
+            <value>
+                <fullName>Headphones</fullName>
+                <default>false</default>
+                <label>Headphones</label>
+            </value>
+            <value>
+                <fullName>Jacket</fullName>
+                <default>false</default>
+                <label>Jacket</label>
+            </value>
+            <value>
+                <fullName>Jeans</fullName>
+                <default>false</default>
+                <label>Jeans</label>
+            </value>
+            <value>
+                <fullName>Lamp</fullName>
+                <default>false</default>
+                <label>Lamp</label>
+            </value>
+            <value>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+                <label>Laptop</label>
+            </value>
+            <value>
+                <fullName>Mug</fullName>
+                <default>false</default>
+                <label>Mug</label>
+            </value>
+            <value>
+                <fullName>Notebook</fullName>
+                <default>false</default>
+                <label>Notebook</label>
+            </value>
+            <value>
+                <fullName>Pen</fullName>
+                <default>false</default>
+                <label>Pen</label>
+            </value>
+            <value>
+                <fullName>Perfume</fullName>
+                <default>false</default>
+                <label>Perfume</label>
+            </value>
+            <value>
+                <fullName>Pillow</fullName>
+                <default>false</default>
+                <label>Pillow</label>
+            </value>
+            <value>
+                <fullName>Smartphone</fullName>
+                <default>false</default>
+                <label>Smartphone</label>
+            </value>
+            <value>
+                <fullName>Sneakers</fullName>
+                <default>false</default>
+                <label>Sneakers</label>
+            </value>
+            <value>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+                <label>Tablet</label>
+            </value>
+            <value>
+                <fullName>Toy Car</fullName>
+                <default>false</default>
+                <label>Toy Car</label>
+            </value>
+            <value>
+                <fullName>T-Shirt</fullName>
+                <default>false</default>
+                <label>T-Shirt</label>
+            </value>
+            <value>
+                <fullName>Watch</fullName>
+                <default>false</default>
+                <label>Watch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
